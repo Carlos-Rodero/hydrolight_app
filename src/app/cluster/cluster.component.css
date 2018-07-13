@@ -1,0 +1,22 @@
+/* HeroSearch private styles */
+h4 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .menu {
+    padding-left: 3em; 
+  }
+  
+  button {
+    background-color: rgb(138, 89, 61);
+    width: 30%;
+    margin: auto;
+  }
+  
+  
+  .wait {
+    padding: 3em; 
+  }

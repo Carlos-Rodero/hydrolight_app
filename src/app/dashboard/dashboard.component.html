@@ -1,0 +1,10 @@
+<h3>Lakes</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let lake of lakes" class="col-1-4"
+    routerLink="/detail/{{lake.name}}">
+    <div class="module hero">
+      <h4>{{lake.name}}</h4>
+    </div>
+  </a>
+</div>
+

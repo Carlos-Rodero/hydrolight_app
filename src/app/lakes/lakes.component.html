@@ -1,0 +1,8 @@
+<h2>Lakes</h2>
+<ul class="heroes">
+  <li *ngFor="let lake of lakes">
+    <a routerLink="/detail/{{lake.name}}">
+      <span class="badge">{{lake.name}}</span> {{lake.pathname}}
+    </a>
+  </li>
+</ul>

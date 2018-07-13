@@ -1,0 +1,14 @@
+<div id="search-component">
+  <h4>Lake Search</h4>
+
+  <h5>Bottom</h5>
+
+  <input #searchBox1 id="search-box" (keyup)="search(searchBox1.value)" />
+
+  <ul class="search-result">
+    <li *ngFor="let lake of lakes$ | async" >
+      <a routerLink="/detail/{{lake.name}}">
+        {{lake.pathname}}
+      </a>
+    </li>
+  </ul>

@@ -1,0 +1,8 @@
+<h2>Collections in DB</h2>
+<ul class="heroes">
+  <ul *ngFor="let db of databases">
+      <button class="btn" (click)="getDB(db)">
+       {{db}}
+    </button>
+  </ul>
+</ul>

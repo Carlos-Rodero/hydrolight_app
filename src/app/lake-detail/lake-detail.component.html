@@ -1,0 +1,29 @@
+<div *ngIf="lake">
+ 
+  <h2>{{ lake.name | uppercase }} Details</h2>
+  <div><span>name: </span>{{lake.name}}</div>
+  <div><span>pathname: </span>{{lake.pathname}}</div>
+  <div><span>bottom: </span>{{lake.bottom}}</div>
+  <div><span>depth: </span>{{lake.depth}}</div>
+  <div><span>chl: </span>{{lake.chl}}</div>
+  <div><span>cdom: </span>{{lake.cdom}}</div>
+  <div><span>mineral: </span>{{lake.mineral}}</div>
+  <div><span>cloud: </span>{{lake.cloud}}</div>
+  <div><span>suntheta: </span>{{lake.suntheta}}</div>
+  <div><span>windspeed: </span>{{lake.windspeed}}</div>
+  <div><span>temp: </span>{{lake.temp}}</div>
+  <div><span>salinity: </span>{{lake.salinity}}</div>
+  <div><span>iop: </span>{{lake.iop}}</div>
+
+  <div>
+    <label>name:
+      <input [(ngModel)]="lake.name" placeholder="name">
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button> 
+
+  <div>
+    <label>Data:</label>
+    <app-lake-chart></app-lake-chart>
+  </div>
+</div>

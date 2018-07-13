@@ -1,0 +1,20 @@
+
+h2 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .menu {
+    padding-left: 3em; 
+  }
+  
+  button {
+    width: 20%;
+    margin: auto;
+  }
+  
+  .wait {
+    padding: 3em; 
+  }
